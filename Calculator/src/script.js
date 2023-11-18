@@ -66,6 +66,7 @@ document.getElementById('percent').onclick = () => {
 document.getElementById('submit').onclick = () => {
     switch (state) {
         case "plus":
+            console.log(added)
             break;
         case "minus":
             break;
